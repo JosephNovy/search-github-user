@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import styled from "styled-components";
-import loginImg from "C:/Users/User/Documents/Estudos/curso-react/projects/search-github-user/src/images/login-img.svg";
+import loginImg from "../images/login-img.svg";
 const Login = () => {
   const { isAuthenticated, loginWithRedirect, logout, user, isLoading } =
     useAuth0();
